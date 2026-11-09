@@ -1,0 +1,6 @@
+{
+  "name": "منصة تكافل التعاونية",
+  "description": "منصة ويب تعاونية إلكترونية احترافية باللغة العربية لإدارة المجموعات الدائرية والادخار التضامني وعمليات بريدي موب بالدينار الجزائري.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

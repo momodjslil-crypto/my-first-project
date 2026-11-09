@@ -1,0 +1,469 @@
+{
+  "system": {
+    "isSetup": true,
+    "platformName": "منصة تكافل التعاونية",
+    "setupDate": "2026-11-09T22:32:49.977Z",
+    "superAdminId": "admin_1794263569922"
+  },
+  "users": [
+    {
+      "id": "admin_1794263569922",
+      "membershipNo": "TKF-ADMIN-01",
+      "name": "أسيد",
+      "email": "mohamedkasssmi09@gmail.com",
+      "passwordHash": "c9633f91e5c6d0655cba9fe9519f16d0:852a2b07d2503566276c25a4fc5215fd23a6b498175a9e982c31c8ec2a462f9d6434beaf99dcf64dfb4d5cdd1649945a5a749b5db70d5076567f50052e5026c1",
+      "phone": "0796358028",
+      "nationalId": "",
+      "role": "super_admin",
+      "status": "active",
+      "referralCode": "TKF-ADMIN",
+      "referralCount": 1,
+      "createdAt": "2026-11-09T22:32:49.977Z",
+      "lastLogin": "2026-11-09T22:32:49.977Z"
+    },
+    {
+      "id": "user_1794263759018",
+      "membershipNo": "TKF-1002",
+      "name": "محمد",
+      "email": "mohamedkasssmi0@gmail.com",
+      "passwordHash": "4957cfc3065c41a4124b02a39027e55b:bfc4f81115fbf6126309b7a5433d3fdb5e474fd560080e7dce236b28cb0aa0908ec1abc34a2ba5076279270ef15389cfbdf2aa3a4ce8d21c0c96292a3f024bbd",
+      "phone": "0796358023",
+      "role": "member",
+      "status": "active",
+      "groupId": "group_1794263676781",
+      "referralCode": "TKF-MOHAMED",
+      "referralCount": 0,
+      "invitedBy": "admin_1794263569922",
+      "invitedByName": "أسيد",
+      "createdAt": "2026-11-09T22:35:59.070Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_1794263676781",
+      "name": "الورق",
+      "code": "HALAQA-257",
+      "tierId": "tier_3000",
+      "tierAmount": 3000,
+      "potAmount": 21000,
+      "organizerId": "admin_1794263569922",
+      "organizerName": "أسيد",
+      "kingUserId": "admin_1794263569922",
+      "kingName": "أسيد",
+      "kingMembershipNo": "TKF-ADMIN-01",
+      "kingBaridiMob": {
+        "holderName": "أسيد",
+        "rip": "",
+        "cle": "",
+        "phone": "0796358028",
+        "notes": "الرجاء كتابة رقم العضوية واسم المجموعة عند التحويل"
+      },
+      "slots": [
+        {
+          "slotNumber": 1,
+          "userId": "user_1794263759018",
+          "userName": "محمد",
+          "membershipNo": "TKF-1002",
+          "invitedBy": "أسيد",
+          "paymentStatus": "paid",
+          "paymentProofId": null,
+          "receiptImage": null,
+          "joinedAt": "2026-11-09T22:35:59.070Z"
+        },
+        {
+          "slotNumber": 2,
+          "userId": null,
+          "userName": null,
+          "membershipNo": null,
+          "invitedBy": null,
+          "paymentStatus": "unpaid",
+          "paymentProofId": null,
+          "receiptImage": null,
+          "joinedAt": null
+        },
+        {
+          "slotNumber": 3,
+          "userId": null,
+          "userName": null,
+          "membershipNo": null,
+          "invitedBy": null,
+          "paymentStatus": "unpaid",
+          "paymentProofId": null,
+          "receiptImage": null,
+          "joinedAt": null
+        },
+        {
+          "slotNumber": 4,
+          "userId": null,
+          "userName": null,
+          "membershipNo": null,
+          "invitedBy": null,
+          "paymentStatus": "unpaid",
+          "paymentProofId": null,
+          "receiptImage": null,
+          "joinedAt": null
+        },
+        {
+          "slotNumber": 5,
+          "userId": null,
+          "userName": null,
+          "membershipNo": null,
+          "invitedBy": null,
+          "paymentStatus": "unpaid",
+          "paymentProofId": null,
+          "receiptImage": null,
+          "joinedAt": null
+        },
+        {
+          "slotNumber": 6,
+          "userId": null,
+          "userName": null,
+          "membershipNo": null,
+          "invitedBy": null,
+          "paymentStatus": "unpaid",
+          "paymentProofId": null,
+          "receiptImage": null,
+          "joinedAt": null
+        },
+        {
+          "slotNumber": 7,
+          "userId": null,
+          "userName": null,
+          "membershipNo": null,
+          "invitedBy": null,
+          "paymentStatus": "unpaid",
+          "paymentProofId": null,
+          "receiptImage": null,
+          "joinedAt": null
+        }
+      ],
+      "status": "active",
+      "inviteCode": "92f3913d59cb",
+      "cycleDuration": "weekly",
+      "currentCycleIndex": 1,
+      "completedCycles": 0,
+      "members": [
+        {
+          "userId": "user_1794263759018",
+          "name": "محمد",
+          "membershipNo": "TKF-1002",
+          "positionInRing": 1,
+          "hasReceivedTurn": false,
+          "joinDate": "2026-11-09T22:35:59.070Z"
+        }
+      ],
+      "maxMembers": 8,
+      "roleTransitionLogs": [],
+      "startDate": "2026-11-09T22:34:36.781Z",
+      "notes": "",
+      "createdAt": "2026-11-09T22:34:36.781Z"
+    }
+  ],
+  "financialTiers": [
+    {
+      "id": "tier_2000",
+      "name": "فئة التكافل الأساسية",
+      "amount": 2000,
+      "description": "مساهمة ميسرة قدرها 2,000 دج شهرياً",
+      "isActive": true,
+      "isCustom": false
+    },
+    {
+      "id": "tier_3000",
+      "name": "فئة التضامن الفضية",
+      "amount": 3000,
+      "description": "مساهمة قدرها 3,000 دج شهرياً",
+      "isActive": true,
+      "isCustom": false
+    },
+    {
+      "id": "tier_4000",
+      "name": "فئة التضامن الذهبية",
+      "amount": 4000,
+      "description": "مساهمة قدرها 4,000 دج شهرياً",
+      "isActive": true,
+      "isCustom": false
+    },
+    {
+      "id": "tier_custom",
+      "name": "الفئة المخصصة الإدارية",
+      "amount": 5000,
+      "description": "فئة رابعة يحدد المسؤول قيمتها بدقة بالدينار الجزائري",
+      "isActive": true,
+      "isCustom": true
+    }
+  ],
+  "baridiMob": {
+    "holderName": "",
+    "rip": "",
+    "cle": "",
+    "phone": "",
+    "notes": "الرجاء كتابة رقم العضوية واسم المجموعة في خانة الملاحظات عند التحويل عبر بريدي موب.",
+    "lastUpdated": "2026-11-09T22:32:49.977Z",
+    "updatedByAdminId": "admin_1794263569922",
+    "updatedByAdminName": "أسيد"
+  },
+  "paymentProofs": [],
+  "transparencyLedger": [
+    {
+      "id": "trans_1794263812202",
+      "date": "2026-11-09T22:36:52.202Z",
+      "type": "تسليم_استحقاق_دورة",
+      "amount": 3000,
+      "groupId": "group_1794263676781",
+      "groupName": "الورق",
+      "maskedMember": "عضو #TKF-1002",
+      "status": "معتمد",
+      "cycleRound": 1,
+      "approvedBy": "أسيد",
+      "notes": "تسليم وعاء الحلقة التعاونية للدور رقم 1"
+    },
+    {
+      "id": "trans_1794263810898",
+      "date": "2026-11-09T22:36:50.898Z",
+      "type": "تسليم_استحقاق_دورة",
+      "amount": 3000,
+      "groupId": "group_1794263676781",
+      "groupName": "الورق",
+      "maskedMember": "عضو #TKF-1002",
+      "status": "معتمد",
+      "cycleRound": 1,
+      "approvedBy": "أسيد",
+      "notes": "تسليم وعاء الحلقة التعاونية للدور رقم 1"
+    },
+    {
+      "id": "trans_1794263810167",
+      "date": "2026-11-09T22:36:50.167Z",
+      "type": "تسليم_استحقاق_دورة",
+      "amount": 3000,
+      "groupId": "group_1794263676781",
+      "groupName": "الورق",
+      "maskedMember": "عضو #TKF-1002",
+      "status": "معتمد",
+      "cycleRound": 1,
+      "approvedBy": "أسيد",
+      "notes": "تسليم وعاء الحلقة التعاونية للدور رقم 1"
+    },
+    {
+      "id": "trans_1794263808834",
+      "date": "2026-11-09T22:36:48.834Z",
+      "type": "تسليم_استحقاق_دورة",
+      "amount": 3000,
+      "groupId": "group_1794263676781",
+      "groupName": "الورق",
+      "maskedMember": "عضو #TKF-1002",
+      "status": "معتمد",
+      "cycleRound": 1,
+      "approvedBy": "أسيد",
+      "notes": "تسليم وعاء الحلقة التعاونية للدور رقم 1"
+    },
+    {
+      "id": "trans_1794263808249",
+      "date": "2026-11-09T22:36:48.249Z",
+      "type": "تسليم_استحقاق_دورة",
+      "amount": 3000,
+      "groupId": "group_1794263676781",
+      "groupName": "الورق",
+      "maskedMember": "عضو #TKF-1002",
+      "status": "معتمد",
+      "cycleRound": 1,
+      "approvedBy": "أسيد",
+      "notes": "تسليم وعاء الحلقة التعاونية للدور رقم 1"
+    },
+    {
+      "id": "trans_1794263807340",
+      "date": "2026-11-09T22:36:47.341Z",
+      "type": "تسليم_استحقاق_دورة",
+      "amount": 3000,
+      "groupId": "group_1794263676781",
+      "groupName": "الورق",
+      "maskedMember": "عضو #TKF-1002",
+      "status": "معتمد",
+      "cycleRound": 1,
+      "approvedBy": "أسيد",
+      "notes": "تسليم وعاء الحلقة التعاونية للدور رقم 1"
+    },
+    {
+      "id": "trans_1794263805788",
+      "date": "2026-11-09T22:36:45.788Z",
+      "type": "تسليم_استحقاق_دورة",
+      "amount": 3000,
+      "groupId": "group_1794263676781",
+      "groupName": "الورق",
+      "maskedMember": "عضو #TKF-1002",
+      "status": "معتمد",
+      "cycleRound": 1,
+      "approvedBy": "أسيد",
+      "notes": "تسليم وعاء الحلقة التعاونية للدور رقم 1"
+    }
+  ],
+  "joinRequests": [],
+  "groupCreationRequests": [],
+  "supportTickets": [],
+  "notifications": [
+    {
+      "id": "notif_1794265182935_wnjrki",
+      "targetUserId": "user_1794263759018",
+      "title": "تحديث حالة الحساب",
+      "message": "تم تغيير حالة حسابك في المنصة إلى: معلق",
+      "type": "alert",
+      "isRead": false,
+      "createdAt": "2026-11-09T22:59:42.935Z"
+    },
+    {
+      "id": "notif_1794264796668_u239za",
+      "targetUserId": "user_1794263759018",
+      "title": "تحديث حالة الحساب",
+      "message": "تم تغيير حالة حسابك في المنصة إلى: نشط",
+      "type": "success",
+      "isRead": false,
+      "createdAt": "2026-11-09T22:53:16.668Z"
+    },
+    {
+      "id": "notif_1794264792050_prrfd4",
+      "targetUserId": "user_1794263759018",
+      "title": "تحديث حالة الحساب",
+      "message": "تم تغيير حالة حسابك في المنصة إلى: معلق",
+      "type": "alert",
+      "isRead": false,
+      "createdAt": "2026-11-09T22:53:12.050Z"
+    },
+    {
+      "id": "notif_1794263676787_edafty",
+      "targetUserId": "all",
+      "title": "مجموعة تعاونية جديدة",
+      "message": "تم إطلاق مجموعة دائرية جديدة: \"الورق\" بقيمة 3,000 دج لكل دورة.",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-11-09T22:34:36.793Z"
+    },
+    {
+      "id": "notif_1794263569977_ignxew",
+      "targetUserId": "admin_1794263569922",
+      "title": "مرحباً بك في تكافل",
+      "message": "تم إعداد حسابك بنجاح كمسؤول رئيسي للمنصة. يمكنك الآن ضبط إعدادات بريدي موب وإضافة المجموعات والأعضاء.",
+      "type": "success",
+      "isRead": false,
+      "createdAt": "2026-11-09T22:32:49.977Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_1794265182934_2lrwux",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تغيير حالة عضو",
+      "details": "تم تغيير حالة العضو محمد (TKF-1002) إلى معلق",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:59:42.934Z"
+    },
+    {
+      "id": "audit_1794264796668_5xo4pw",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تغيير حالة عضو",
+      "details": "تم تغيير حالة العضو محمد (TKF-1002) إلى نشط",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:53:16.668Z"
+    },
+    {
+      "id": "audit_1794264792049_eqoxd4",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تغيير حالة عضو",
+      "details": "تم تغيير حالة العضو محمد (TKF-1002) إلى معلق",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:53:12.049Z"
+    },
+    {
+      "id": "audit_1794263812203_0ih760",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تقديم دورة الحلقة",
+      "details": "تم تقديم دورة حلقة الورق إلى الدور 1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:36:52.203Z"
+    },
+    {
+      "id": "audit_1794263810899_h6z3i5",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تقديم دورة الحلقة",
+      "details": "تم تقديم دورة حلقة الورق إلى الدور 1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:36:50.899Z"
+    },
+    {
+      "id": "audit_1794263810168_astt7g",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تقديم دورة الحلقة",
+      "details": "تم تقديم دورة حلقة الورق إلى الدور 1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:36:50.168Z"
+    },
+    {
+      "id": "audit_1794263808834_n9gi2w",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تقديم دورة الحلقة",
+      "details": "تم تقديم دورة حلقة الورق إلى الدور 1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:36:48.834Z"
+    },
+    {
+      "id": "audit_1794263808250_k0v3r8",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تقديم دورة الحلقة",
+      "details": "تم تقديم دورة حلقة الورق إلى الدور 1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:36:48.250Z"
+    },
+    {
+      "id": "audit_1794263807341_ofa96v",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تقديم دورة الحلقة",
+      "details": "تم تقديم دورة حلقة الورق إلى الدور 1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:36:47.341Z"
+    },
+    {
+      "id": "audit_1794263805789_qqhnm1",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تقديم دورة الحلقة",
+      "details": "تم تقديم دورة حلقة الورق إلى الدور 1",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:36:45.789Z"
+    },
+    {
+      "id": "audit_1794263759070_pkrhhd",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "إضافة عضو يدوياً",
+      "details": "تمت إضافة العضو محمد (TKF-1002) بواسطة الإدارة",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:35:59.070Z"
+    },
+    {
+      "id": "audit_1794263676782_73jzob",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "إنشاء حلقة دائرية",
+      "details": "تم إنشاء مجموعة الورق (HALAQA-257) بفئة 3000 دج",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:34:36.782Z"
+    },
+    {
+      "id": "audit_1794263569977_3x7qnw",
+      "adminId": "admin_1794263569922",
+      "adminName": "أسيد",
+      "action": "تأسيس المنصة",
+      "details": "تم إنشاء حساب المسؤول الرئيسي (الملك) وإطلاق المنصة من الصفر",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-11-09T22:32:49.977Z"
+    }
+  ]
+}
